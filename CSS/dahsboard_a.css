@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* GLOBAL BUTTON */
+.button-red{
+    width: 284px;
+    height: 90px;
+    background: #E96479;
+    box-shadow: -19px 41px 18px rgba(32, 19, 19, 0.03), -11px 23px 15px rgba(32, 19, 19, 0.1), -5px 10px 11px rgba(32, 19, 19, 0.17), -1px 3px 6px rgba(32, 19, 19, 0.2), 0px 0px 0px rgba(32, 19, 19, 0.2);
+    border-radius: 60px 60px 30px 30px;
+    border: none;
+}
+.button-toska{
+    width: 284px;
+    height: 90px;
+    background: #7DB9B6;
+    box-shadow: -19px 41px 18px rgba(32, 19, 19, 0.03), -11px 23px 15px rgba(32, 19, 19, 0.1), -5px 10px 11px rgba(32, 19, 19, 0.17), -1px 3px 6px rgba(32, 19, 19, 0.2), 0px 0px 0px rgba(32, 19, 19, 0.2);
+    border-radius: 60px 60px 30px 30px;
+    border: none;
+}
+
+
+
+/* GLOBAL FONT */
+.secondary-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;    
+}
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    
+}
+
+.segou{
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    font-weight: 400;    
+}
+
+.mont{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.kotak-sidebar{
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+    width: 405px;
+    height: 100vh;
+    z-index: 1111;
+    background-color: #4D455D;
+    border-right: 1px solid #393636;
+    box-shadow: 162px 53px 68px rgba(32, 19, 19, 0.01), 91px 30px 58px rgba(32, 19, 19, 0.05), 41px 13px 43px rgba(32, 19, 19, 0.09), 10px 3px 23px rgba(32, 19, 19, 0.1), 0px 0px 0px rgba(32, 19, 19, 0.1);
+}
+
+
+
+.kotak-akhir{
+    box-shadow: -23px 0px 51px 0px #2013134A;
+    background: url(../img/back.gif);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.kotak-isi{
+    width: 630px;
+    height: 100vh;
+}
+
+.img-dubes{
+    width: 385px;
+    height: 385px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+.header-1{
+    margin-top: 127px;
+    margin-bottom: 26px;
+}
+
+ol, ul{
+    padding-left: 0;
+}
+
+
+
+ul li{
+    height: 68px;
+    display: block;
+    width: 330px;
+    margin: auto;
+    background-color: #FCFCFC;
+}
+
+.nav-link{
+    padding-top: 12px;
+}
+
+ul li:nth-child(2), ul li:nth-child(3){
+    margin-top: 26px;
+}
+
+.nav-link{
+    color: rgb(44, 40, 40);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;    
+}
+
+.nav-link img{
+    margin-right: 5px;
+}
+
+.header-1 img{
+    width: 183px;
+    height: 183px;
+}
+
+.data-siswa{
+    height: 220px;
+    width: 223px;
+    border-radius: 25px;    
+    background: #7DB9B6;
+    transition: all .5s ease-in-out;
+}
+
+
+
+
+
+.data-absen{
+    height: 75px;
+    width: 223px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background: #E96479;
+}
+
+.data-absen:nth-child(2){
+    margin-top: 30px;
+}
+
+.icon-student{
+    padding-left: 23px;
+}
